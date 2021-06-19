@@ -11,7 +11,7 @@ const GoalsList = (props) => {
       <GoalItem title={props.goals[4].title} /> */}
 
       {props.goals.map((goal) => (
-        <GoalItem key={goal.id} title={goal.title} />
+        <GoalItem key={goal.id} title={goal.title} onDeleteClick={props.onDeleteClick(goal.id)} />
       ))}
 
     </div>
