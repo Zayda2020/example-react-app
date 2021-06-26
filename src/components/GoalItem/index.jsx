@@ -5,7 +5,9 @@ const GoalItem = (props) => {
   return (
     <div className="goal-item">
       <p>{props.title}</p>
-      <Button name="Delete" onClick={props.onDeleteClick} />
+      <Button onClick={props.onDeleteClick}>
+        Delete
+      </Button>
     </div>
   )
 }
