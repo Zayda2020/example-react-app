@@ -14,7 +14,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://zayda2020.github.io/bbk-goals-list/",
+  "homepage": "https://github.com/Zayda2020/bbk-goals-list",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
